@@ -5,6 +5,7 @@ public class A {
 	private int a1;
 	private float a2;
 	private String a3;
+	private String aprinc4;
 	
 	//Métodos acessores
 	public int getA1() {
@@ -24,6 +25,12 @@ public class A {
 	}
 	public void setA3(String a3) {
 		this.a3 = a3;
+	}
+	public String getAprince4() {
+		return aprinc4;
+	}
+	public void setAprince4(String aprince4) {
+		this.aprinc4 = aprince4;
 	}
 	
 	//Métodos
