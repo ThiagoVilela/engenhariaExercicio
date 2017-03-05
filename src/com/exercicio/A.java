@@ -5,7 +5,7 @@ public class A {
 	private int a1;
 	private float a2;
 	private String a3;
-	private String a4;
+	private String aramo4;
 	
 	//Métodos acessores
 	public int getA1() {
@@ -27,10 +27,10 @@ public class A {
 		this.a3 = a3;
 	}
 	public String getA4() {
-		return a4;
+		return aramo4;
 	}
 	public void setA4(String a4) {
-		this.a4 = a4;
+		this.aramo4 = a4;
 	}
 	
 	//Métodos
