@@ -1,11 +1,13 @@
 package com.exercicio;
 
 public class A {
-	
+	//Atributos
 	private int a1;
 	private float a2;
 	private String a3;
+	private String a4;
 	
+	//Métodos acessores
 	public int getA1() {
 		return a1;
 	}
@@ -24,9 +26,19 @@ public class A {
 	public void setA3(String a3) {
 		this.a3 = a3;
 	}
+	public String getA4() {
+		return a4;
+	}
+	public void setA4(String a4) {
+		this.a4 = a4;
+	}
 	
+	//Métodos
 	public double soma(){
 		return this.a1 + this.a2;
 	}
+	
+	
+	
 	
 }
